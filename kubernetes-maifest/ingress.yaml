@@ -2,14 +2,16 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: rails-ingress
+  namespace: default
 spec:
   rules:
-  - http:
+  - host: rails.example.com
+    http:
       paths:
-      - path: /
+      - path: /rails
         pathType: Prefix
         backend:
           service:
             name: rails
             port:
-              number: 31000
+              number: 3000
