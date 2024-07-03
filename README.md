@@ -1,6 +1,7 @@
 This is the code which i used for devops work.
 Code - https://github.com/mooazsayyed/devops_work.git
 All step are below to complete the task 
+
 Step 1 : Dockerizing Writing a Dockerfile and Docker-Compose.yaml
 
 Containerizing appliation
